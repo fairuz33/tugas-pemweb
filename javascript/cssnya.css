@@ -1,0 +1,26 @@
+/* Light Mode (Default) */
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: #212529;
+  color: white;
+}
+
+body.dark .card {
+  background-color: #343a40;
+  color: white;
+}
+
+body.dark .form-control {
+  background-color: #495057;
+  color: white;
+  border-color: #6c757d;
+}
+
+body.dark .form-control::placeholder {
+  color: #ced4da;
+}
